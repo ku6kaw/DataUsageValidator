@@ -1,0 +1,22 @@
+### Instruction
+Read the full text of the "Citing Paper" below and determine whether it actually uses the dataset from the specified "Cited Data Paper".
+Your final output must be in JSON format, containing only either "Used" or "Not Used".
+
+---
+### Input Data
+
+Cited Data Paper Title:
+{cited_data_paper_title}
+
+Citing Paper Title:
+{citing_paper_title}
+
+Citing Paper Full Text:
+{full_text}
+
+---
+### Output
+```json
+{{
+  "decision": "Used" or "Not Used"
+}}
