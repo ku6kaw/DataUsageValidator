@@ -1,0 +1,5 @@
+requests
+pandas
+tqdm
+scikit-learn
+google-generativeai
